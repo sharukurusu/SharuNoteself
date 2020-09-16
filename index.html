@@ -162,6 +162,8 @@ Error message and password prompt
 
 <p>This <a class="tc-tiddlylink-external" href="https://tiddlywiki.com" rel="noopener noreferrer" target="_blank">TiddlyWiki</a> contains the following tiddlers:</p><p><ul>
 
+<li>$:/config/DownloadSaver/AutoSave</li>
+
 <li>$:/config/OfficialPluginLibrary</li>
 
 <li>$:/core</li>
@@ -216,11 +218,15 @@ Error message and password prompt
 
 <li>$:/temp/info-plugin</li>
 
+<li>$:/temp/search</li>
+
 <li>$:/themes/tiddlywiki/snowwhite</li>
 
 <li>$:/themes/tiddlywiki/vanilla</li>
 
 <li>$:/themes/tiddlywiki/vanilla/options/sidebarlayout</li>
+
+<li>test</li>
 
 </ul>
 </p>
@@ -232,6 +238,9 @@ Error message and password prompt
 <!--~~ Ordinary tiddlers ~~-->
 
 <div id="storeArea" style="display:none;">
+<div created="20200916042841126" modified="20200916042843079" title="$:/config/DownloadSaver/AutoSave">
+<pre>no</pre>
+</div>
 <div caption="{{$:/language/OfficialPluginLibrary}}" tags="$:/tags/PluginLibrary" title="$:/config/OfficialPluginLibrary" url="https://noteself.github.io/PluginLibrary.html">
 <pre>{{$:/language/OfficialPluginLibrary/Hint}}</pre>
 </div>
@@ -9428,16 +9437,16 @@ Error message and password prompt
     }
 }</pre>
 </div>
-<div created="20200916042244635" modified="20200916042247391" title="$:/GitHub/Filename">
+<div created="20200916042244635" modified="20200916042247391" revision="1-57e74273b9c2530c00a5dd53d195787b" title="$:/GitHub/Filename" type="text/vnd.tiddlywiki">
 <pre>index.html</pre>
 </div>
-<div created="20200916042320335" modified="20200916042320335" title="$:/GitHub/Path">
+<div created="20200916042320335" modified="20200916042320335" revision="1-40a92659a087bf1f9289fac28219221c" title="$:/GitHub/Path" type="text/vnd.tiddlywiki">
 <pre>/</pre>
 </div>
-<div created="20200916042253129" modified="20200916042313393" title="$:/GitHub/Repo">
+<div created="20200916042253129" modified="20200916042313393" revision="4-3ddea315ca328f78b0f1edac64f63494" title="$:/GitHub/Repo" type="text/vnd.tiddlywiki">
 <pre>sharukurusu/SharuNoteself</pre>
 </div>
-<div created="20200916042211051" modified="20200916042214973" title="$:/GitHub/Username">
+<div created="20200916042211051" modified="20200916042214973" revision="1-279e1d325539be16299c0fe332c2d8ed" title="$:/GitHub/Username" type="text/vnd.tiddlywiki">
 <pre>zarlimichael@gmail.com</pre>
 </div>
 <div title="$:/isEncrypted">
@@ -9898,14 +9907,15 @@ Error message and password prompt
 }</pre>
 </div>
 <div title="$:/plugins/danielo515/tiddlypouch/config/config_database" type="application/json">
-<pre>{&quot;debug&quot;:{&quot;active&quot;:true,&quot;verbose&quot;:false},&quot;selectedDbId&quot;:&quot;MyNotebook&quot;,&quot;useFatTiddlers&quot;:false,&quot;databases&quot;:{&quot;MyNotebook&quot;:{&quot;name&quot;:&quot;MyNotebook&quot;,&quot;remote&quot;:{&quot;name&quot;:null,&quot;username&quot;:null,&quot;url&quot;:null}}},&quot;_id&quot;:&quot;configuration&quot;,&quot;_rev&quot;:&quot;1-1ce74af96a62cefc6f01cc53cae19c32&quot;}</pre>
+<pre>{&quot;debug&quot;:{&quot;active&quot;:true,&quot;verbose&quot;:false},&quot;selectedDbId&quot;:&quot;SharuNoteself&quot;,&quot;useFatTiddlers&quot;:false,&quot;databases&quot;:{&quot;MyNotebook&quot;:{&quot;name&quot;:&quot;MyNotebook&quot;,&quot;remote&quot;:{&quot;name&quot;:null,&quot;username&quot;:null,&quot;url&quot;:null},&quot;version&quot;:&quot;0.27.7&quot;},&quot;SharuNoteself&quot;:{&quot;name&quot;:&quot;SharuNoteself&quot;,&quot;version&quot;:&quot;0.27.7&quot;}},&quot;_id&quot;:&quot;configuration&quot;,&quot;_rev&quot;:&quot;4-aae423c700dfb77bfea8f0415919c622&quot;}</pre>
 </div>
 <div list="MyNotebook" title="$:/plugins/danielo515/tiddlypouch/config/database_names">
 <pre>{{!!list}}</pre>
 </div>
-<div created="20200916042001915" modified="20200916042018180" title="$:/plugins/danielo515/tiddlypouch/config/selected_database" type="application/json">
+<div created="20200916042728895" modified="20200916042733198" title="$:/plugins/danielo515/tiddlypouch/config/selected_database" type="application/json">
 <pre>{
-    &quot;name&quot;: &quot;SharuNoteself&quot;
+    &quot;name&quot;: &quot;SharuNoteself&quot;,
+    &quot;version&quot;: &quot;0.27.7&quot;
 }</pre>
 </div>
 <div debug="true" title="$:/plugins/danielo515/tiddlypouch/ui/Config" useFatTiddlers="false" verbose="false">
@@ -9949,16 +9959,16 @@ Error message and password prompt
 <div title="$:/SiteSubtitle">
 <pre>&lt;&lt;tiddlypouch-tab MyNotebook Database &gt;&gt;</pre>
 </div>
-<div created="20200916042027289" modified="20200916042036152" title="$:/SiteTitle">
+<div created="20200916042027289" modified="20200916042036152" revision="2-3fdbb697c35cdc3a6854f1a9d2cbedd0" title="$:/SiteTitle" type="text/vnd.tiddlywiki">
 <pre>Sharu's Noteself Notebook</pre>
 </div>
-<div created="20200916042109291" modified="20200916042145933" title="$:/state/tab-1749438307">
-<pre>$:/core/ui/ControlPanel/Saving</pre>
+<div created="20200916042109291" modified="20200916044340895" title="$:/state/tab-1749438307">
+<pre>$:/plugins/danielo515/tiddlypouch/ControlPanel</pre>
 </div>
-<div created="20200916042148872" modified="20200916042148872" title="$:/state/tab-2065006209">
+<div created="20200916042148872" modified="20200916042854065" title="$:/state/tab-2065006209">
 <pre>$:/core/ui/ControlPanel/Saving/GitHub</pre>
 </div>
-<div created="20200916042128410" modified="20200916042144713" title="$:/state/TiddlyPouch/tabs--1566775042">
+<div created="20200916042128410" modified="20200916044340895" title="$:/state/TiddlyPouch/tabs--1566775042">
 <pre>$:/plugins/danielo515/tiddlypouch/ControlPanel/Database</pre>
 </div>
 <div title="$:/status/IsAnonymous">
@@ -9970,7 +9980,7 @@ Error message and password prompt
 <div title="$:/status/IsReadOnly">
 <pre>no</pre>
 </div>
-<div created="20200916042106153" list="$:/ControlPanel GettingStarted" modified="20200916042106153" title="$:/StoryList">
+<div created="20200916042639022" list="test GettingStarted $:/ControlPanel" modified="20200916042836518" title="$:/StoryList">
 <pre></pre>
 </div>
 <div plugin-type="info" title="$:/temp/info-plugin" type="application/json">
@@ -10030,6 +10040,9 @@ Error message and password prompt
         }
     }
 }</pre>
+</div>
+<div created="20200916042637558" modified="20200916042637993" title="$:/temp/search">
+<pre>test</pre>
 </div>
 <div author="JeremyRuston" core-version="&gt;=5.0.0" dependents="$:/themes/tiddlywiki/vanilla" description="Emphasises individual tiddlers" name="Snow White" plugin-priority="0" plugin-type="theme" title="$:/themes/tiddlywiki/snowwhite" type="application/json" version="5.1.21">
 <pre>{
@@ -10142,6 +10155,9 @@ Error message and password prompt
 </div>
 <div title="$:/themes/tiddlywiki/vanilla/options/sidebarlayout">
 <pre>fluid-fixed</pre>
+</div>
+<div created="20200916042343146" modified="20200916042350620" revision="1-4799bab73cc5e53cba4c0b40ee2e8126" tags="" title="test" type="text/vnd.tiddlywiki">
+<pre>test</pre>
 </div>
 
 </div>
