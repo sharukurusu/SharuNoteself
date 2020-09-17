@@ -298,6 +298,8 @@ Error message and password prompt
 
 <li>$:/SiteTitle</li>
 
+<li>$:/state/encrypt</li>
+
 <li>$:/state/tab--1963855381</li>
 
 <li>$:/state/tab-1749438307</li>
@@ -324,6 +326,10 @@ Error message and password prompt
 
 <li>$:/temp/info-plugin</li>
 
+<li>$:/temp/password1</li>
+
+<li>$:/temp/password2</li>
+
 <li>$:/temp/search</li>
 
 <li>$:/themes/tiddlywiki/snowwhite</li>
@@ -333,6 +339,8 @@ Error message and password prompt
 <li>$:/themes/tiddlywiki/vanilla/options/sidebarlayout</li>
 
 <li>$:/view</li>
+
+<li>Encrypted Password Management</li>
 
 <li>test</li>
 
@@ -10167,7 +10175,7 @@ $:/config/ViewToolbarButtons/Visibility/$(listItem)$
     }
 }</pre>
 </div>
-<div created="20200228210954683" modified="20200917003847535" revision="5-f937403d89e934f4d326149352e435ab" tags="$:/giffmex/stroll" title="$:/palette" type="text/vnd.tiddlywiki">
+<div created="20200228210954683" modified="20200917003847535" revision="9-6ded39ba5c4a1d4780ba00025318f8bc" tags="$:/giffmex/stroll" title="$:/palette" type="text/vnd.tiddlywiki">
 <pre>$:/palettes/Nord</pre>
 </div>
 <div bag="default" created="20200126141319129" modified="20200521150810414" revision="1-73f393ef62d84ee3bbe6c2e308d70e38" tags="$:/tags/Stylesheet $:/giffmex/stroll $:/giffmex/blinks" title="$:/plugins/danielo515/context/css" type="text/css">
@@ -10365,7 +10373,7 @@ exports.context = contextWidget;
 
 })();</pre>
 </div>
-<div author="DanieloRodrigez" bag="default" core-version="&gt;=5.1.1" dependents="" description="adds the ability to encrypt single tiddlers" list="Encrypt-Tiddler Changelog" plugin-type="plugin" released="2020-08-22T06:45:01.631Z" revision="0" source="https://github.com/danielo515/TIddlywiki5-EncryptTiddlerPlugin" title="$:/plugins/danielo515/encryptTiddler" type="application/json" version="2.3">
+<div author="DanieloRodrigez" bag="default" core-version="&gt;=5.1.1" dependents="" description="adds the ability to encrypt single tiddlers" list="Encrypt-Tiddler Changelog" plugin-type="plugin" released="2020-08-22T06:45:01.631Z" source="https://github.com/danielo515/TIddlywiki5-EncryptTiddlerPlugin" title="$:/plugins/danielo515/encryptTiddler" type="application/json" version="2.3">
 <pre>{
     &quot;tiddlers&quot;: {
         &quot;$:/plugins/danielo515/encryptTiddler/Encrypt-Tiddler&quot;: {
@@ -10871,7 +10879,7 @@ exports.context = contextWidget;
 }</pre>
 </div>
 <div title="$:/plugins/danielo515/tiddlypouch/config/config_database" type="application/json">
-<pre>{&quot;debug&quot;:{&quot;active&quot;:true,&quot;verbose&quot;:false},&quot;selectedDbId&quot;:&quot;SharuNoteself&quot;,&quot;useFatTiddlers&quot;:false,&quot;databases&quot;:{&quot;MyNotebook&quot;:{&quot;name&quot;:&quot;MyNotebook&quot;,&quot;remote&quot;:{&quot;name&quot;:null,&quot;username&quot;:null,&quot;url&quot;:null},&quot;version&quot;:&quot;0.27.7&quot;},&quot;SharuNoteself&quot;:{&quot;name&quot;:&quot;SharuNoteself&quot;,&quot;version&quot;:&quot;0.27.7&quot;}},&quot;_id&quot;:&quot;configuration&quot;,&quot;_rev&quot;:&quot;15-df8fb764b94981110464a4814bf28099&quot;}</pre>
+<pre>{&quot;debug&quot;:{&quot;active&quot;:true,&quot;verbose&quot;:false},&quot;selectedDbId&quot;:&quot;SharuNoteself&quot;,&quot;useFatTiddlers&quot;:false,&quot;databases&quot;:{&quot;MyNotebook&quot;:{&quot;name&quot;:&quot;MyNotebook&quot;,&quot;remote&quot;:{&quot;name&quot;:null,&quot;username&quot;:null,&quot;url&quot;:null},&quot;version&quot;:&quot;0.27.7&quot;},&quot;SharuNoteself&quot;:{&quot;name&quot;:&quot;SharuNoteself&quot;,&quot;version&quot;:&quot;0.27.7&quot;}},&quot;_id&quot;:&quot;configuration&quot;,&quot;_rev&quot;:&quot;19-1c62ee6667d5ef01871a0bee23788633&quot;}</pre>
 </div>
 <div list="MyNotebook SharuNoteself" title="$:/plugins/danielo515/tiddlypouch/config/database_names">
 <pre>{{!!list}}</pre>
@@ -12179,6 +12187,9 @@ exports.context = contextWidget;
 <div created="20200916042027289" modified="20200916042036152" title="$:/SiteTitle">
 <pre>Sharu's Noteself Notebook</pre>
 </div>
+<div created="20200917005745302" modified="20200917005751695" title="$:/state/encrypt">
+<pre></pre>
+</div>
 <div created="20200917003836675" modified="20200917003836675" title="$:/state/tab--1963855381">
 <pre>$:/core/ui/ControlPanel/Palette</pre>
 </div>
@@ -12200,7 +12211,7 @@ exports.context = contextWidget;
 <div title="$:/status/IsReadOnly">
 <pre>no</pre>
 </div>
-<div list="$:/Import test [[Testing stroll links]]" title="$:/StoryList">
+<div list="[[Encrypted Password Management]] test [[Testing stroll links]]" title="$:/StoryList">
 <pre></pre>
 </div>
 <div created="20200519141000553" list="$:/.giffmex/Buttons/more-tiddler-edit-actions $:/core/ui/Buttons/delete $:/core/ui/Buttons/cancel $:/core/ui/Buttons/save" modified="20200521145647980" revision="1-4592daa26a228a8d7023dd4259f5ff4f" tags="$:/giffmex/bigeditarea $:/giffmex/stroll" title="$:/tags/EditToolbar" type="text/vnd.tiddlywiki">
@@ -12272,6 +12283,12 @@ exports.context = contextWidget;
         }
     }
 }</pre>
+</div>
+<div created="20200917005747008" modified="20200917005748292" title="$:/temp/password1">
+<pre></pre>
+</div>
+<div created="20200917005749589" modified="20200917005750788" title="$:/temp/password2">
+<pre></pre>
 </div>
 <div created="20200916044438353" modified="20200916045041085" title="$:/temp/search">
 <pre>test</pre>
@@ -12391,7 +12408,10 @@ exports.context = contextWidget;
 <div bag="default" created="20200127165334843" modified="20200521145813991" revision="1-d85aa359e2524b0f1bb301811136f55d" tags="$:/giffmex/stroll" title="$:/view" type="text/vnd.tiddlywiki">
 <pre>classic</pre>
 </div>
-<div created="20200916044450528" modified="20200916044915270" revision="2-887547858d72b8a3e7f74009d349a2ff" tags="" title="test" type="text/vnd.tiddlywiki">
+<div created="20200917005623490" encrypted="{&quot;iv&quot;:&quot;9oa/vTr9mZitstZclSv0KQ==&quot;,&quot;v&quot;:1,&quot;iter&quot;:10000,&quot;ks&quot;:128,&quot;ts&quot;:64,&quot;mode&quot;:&quot;ccm&quot;,&quot;adata&quot;:&quot;&quot;,&quot;cipher&quot;:&quot;aes&quot;,&quot;salt&quot;:&quot;kD2bohDqS/8=&quot;,&quot;ct&quot;:&quot;vcChy2EgTwSTBTFCpIOV/Juz8hcwSgFFv10RcCiKFwwLHk4j8+FjXJtdoUFz+r9tEhJkUcKQh1v5beO39sTt4PQ8HX09xeMxTmkJz4CiV7jk16PBMtHgxQVxU3bopt4n/ZAAB1+STJEWmSYAbS6QAiJI6TbLTyCDu45hiYEvk+rAdlgbEzrr/Sju15QR6wYTIp4ifvS3T2DASJ/qkxJ3EU4=&quot;}" modified="20200917005726699" tags="" title="Encrypted Password Management">
+<pre>!This is an encrypted Tiddler</pre>
+</div>
+<div created="20200916044450528" modified="20200916044915270" revision="4-bedeec3d2e4fe705ce983319f7ee67ad" tags="" title="test" type="text/vnd.tiddlywiki">
 <pre>test tiddler
 
 [[Testing stroll links]]</pre>
